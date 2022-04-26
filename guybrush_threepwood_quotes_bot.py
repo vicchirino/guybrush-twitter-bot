@@ -31,9 +31,14 @@ def main():
     url, auth = connect_to_oauth(
         consumer_key, consumer_secret, access_token, access_token_secret
     )
-    request = requests.post(
-        auth=auth, url=url, json=payload, headers={'Content-Type': 'application/json'}
-    )
+
+    try: 
+        request = requests.post(
+            auth=auth, url=url, json=payload, headers={'Content-Type': 'application/json'}
+        )
+        print("Tweet posted OK")
+    except:  
+        print(f'Error: {request.status_code}: {request.reason}')
     
 if __name__ == '__main__':
     main()
