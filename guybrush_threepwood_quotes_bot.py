@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# guybrush-twitter-bot/guybrush_threepwood_quotes_bot.py
+
 import requests
 from requests_oauthlib import OAuth1
 import os
@@ -9,7 +12,7 @@ access_token = os.environ.get('TWITTER_BOT_ACCESS_TOKEN')
 access_token_secret = os.environ.get('TWITTER_BOT_ACCESS_TOKEN_SECRET')
 
 def random_quote():
-	lines=open(r'/Users/victorchirino/Projects/hello-python/quotes.txt').read().splitlines()
+	lines=open(r'/Users/victorchirino/Projects/guybrush-twitter-bot/quotes.txt').read().splitlines()
 	return random.choice(lines)
 
 def format_quote(quote):
