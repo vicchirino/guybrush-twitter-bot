@@ -25,5 +25,6 @@ A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybru
 - The curse of Monnkey Island: https://gamefaqs.gamespot.com/pc/29083-the-curse-of-monkey-island/faqs/60819
 
 ### Run bot
-
-`TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py`
+```
+TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py
+```
