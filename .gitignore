@@ -1,5 +1,7 @@
 ## Environment folder / variables
 
-.venv
+venv
 .env
+.vscode
 my-crontab
+csv_generate.py

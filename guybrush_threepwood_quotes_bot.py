@@ -11,6 +11,7 @@ consumer_secret = os.environ.get('TWITTER_BOT_CONSUMER_SECRET')
 access_token = os.environ.get('TWITTER_BOT_ACCESS_TOKEN')
 access_token_secret = os.environ.get('TWITTER_BOT_ACCESS_TOKEN_SECRET')
 
+
 def random_quote():
 	lines=open(r'/Users/victorchirino/Projects/guybrush-twitter-bot/quotes.txt').read().splitlines()
 	return random.choice(lines)
@@ -24,21 +25,20 @@ def connect_to_oauth(consumer_key, consumer_secret, acccess_token, access_token_
     auth = OAuth1(consumer_key, consumer_secret, acccess_token, access_token_secret)
     return url, auth
 
+def post_tweet(payload):
+    url, auth = connect_to_oauth(
+        consumer_key, consumer_secret, access_token, access_token_secret
+    )
+    return requests.post(
+            auth=auth, url=url, json=payload, headers={'Content-Type': 'application/json'}
+        )
 
 def main():
     quote = random_quote()
     payload = format_quote(quote)
-
     print(f'## Quote: {quote}')
-
-    url, auth = connect_to_oauth(
-        consumer_key, consumer_secret, access_token, access_token_secret
-    )
-
     try: 
-        request = requests.post(
-            auth=auth, url=url, json=payload, headers={'Content-Type': 'application/json'}
-        )
+        request = post_tweet(payload)
         print("Tweet posted OK")
     except:  
         print(f'Error: {request.status_code}: {request.reason}')

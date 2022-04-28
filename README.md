@@ -22,6 +22,7 @@ A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybru
 - Twitter authentication PIN-based: https://developer.twitter.com/en/docs/authentication/oauth-1-0a/pin-based-oauth
 - Twitter bot project example: https://github.com/twitterdev/FactualCat-Twitter-Bot
 - Twitter bot examples in Python: https://realpython.com/twitter-bot-python-tweepy/
+- Twitter bot example: https://medium.com/@muhammetbuyuknacar/coding-a-twitter-lyric-mention-bot-with-python-de83b024b9a3
 
 - Python and VSCode: https://code.visualstudio.com/docs/python/python-tutorial
 - Python programmer: https://wiki.python.org/moin/BeginnersGuide/Programmers
