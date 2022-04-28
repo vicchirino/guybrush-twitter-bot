@@ -20,6 +20,8 @@ Also reply for mentions with a random quote.
 ### Production bot:
 [@guybrush_quotes](https://twitter.com/guybrush_quotes?s=20&t=uu60Z4Ofq8N_CvZ5crAhfw)
 
+<img width="691" alt="image" src="https://user-images.githubusercontent.com/3228237/165741417-1028767c-2774-41f9-ad86-964b16874cf2.png">
+
 
 ### Resources
 - Twitter developper account: https://developer.twitter.com
