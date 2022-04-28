@@ -1,15 +1,10 @@
 #!/usr/bin/env python
 # guybrush-twitter-bot/guybrush_threepwood_reply_bot.py
 
-from operator import concat
-import tweepy
 import logging
-from config import create_api
 import time
 import os
-import random
 import requests
-import numpy as np
 from guybrush_threepwood_quotes_bot import post_tweet, random_quote
 
 logging.basicConfig(level=logging.INFO)

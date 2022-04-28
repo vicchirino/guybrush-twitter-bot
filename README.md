@@ -27,6 +27,7 @@ A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybru
 - Python and VSCode: https://code.visualstudio.com/docs/python/python-tutorial
 - Python programmer: https://wiki.python.org/moin/BeginnersGuide/Programmers
 - os Python: https://docs.python.org/3/library/os.html
+- Python scripts on background: https://janakiev.com/blog/python-background/
 
 - Schedule Python: https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e
 - Crontab guru: https://crontab.guru/#*_*_*_*_* 
