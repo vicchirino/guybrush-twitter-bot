@@ -14,7 +14,7 @@ Also reply for mentions with a random quote.
 3. Activate the virtual if needed `source /{ENVIRONMENT_NAME}/bin/activate` (Note: The method used to activate the virtual environment may be different, depending on your operating system and shell. You can learn more about this in the [venv documentation](https://docs.python.org/3/library/venv.html).)
 4. Generate the twitter account keys. Visit https://developer.twitter.com.
 5. Run the scrirpt for a single tweet `TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py`
-6. Run the script for replying mentions `TWITTER_BOT_CONSUMER_KEY='hJJDZCFWBp8dvAkvD9m1wbUof' TWITTER_BOT_CONSUMER_SECRET='AqxpUMkZHJ37tYmQgzl1HFkvcXKO4T6kOE7WoGbsteHVyVDsLC' TWITTER_BOT_ACCESS_TOKEN='1456329931764473864-Unr0RpEqKic8pdj4KdApGmWF4RUn4E' TWITTER_BOT_ACCESS_TOKEN_SECRET='ctoZbaXCwfF9jO49BfvPNfoTeG1qs0iFwpp9cDnCDTGMm' BARRER_TOKEN='AAAAAAAAAAAAAAAAAAAAAAZubwEAAAAA%2FL6FIXIHMFDrClomRTJ6M7NsoLg%3DKtSSlSWYU3OqHR5XyFTTe8jmGHqLyM5F9BwFXYNq1bilWjQEAS' nohup python guybrush_threepwood_reply_bot.py`
+6. Run the script for replying mentions `TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' BARRER_TOKEN='{KEY}' nohup python guybrush_threepwood_reply_bot.py`
 
 
 ### Production bot:
