@@ -5,3 +5,4 @@ venv
 .vscode
 my-crontab
 csv_generate.py
+__pycache__/

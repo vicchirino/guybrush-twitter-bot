@@ -16,7 +16,7 @@ class Tweet:
     self.created_at = created_at
     self.text = text
 
-bearer_token = os.environ.get('BARRER_TOKEN')
+bearer_token = os.environ.get('BARER_TOKEN')
 
 BOT_USER_ID = 1456329931764473864
 
@@ -100,7 +100,7 @@ def check_mentions(since_id):
     return since_id
 
 def main():
-    since_id = 1
+    since_id = 1519649271620022272
 
     while True:
         since_id = check_mentions(since_id)
