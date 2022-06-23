@@ -18,7 +18,7 @@ class Tweet:
 
 bearer_token = os.environ.get('BARER_TOKEN')
 
-BOT_USER_ID = 1456329931764473864
+BOT_USER_ID = os.environ.get('BOT_USER_ID')
 
 def create_mentions_url():
     # Replace with user ID below
@@ -100,7 +100,7 @@ def check_mentions(since_id):
     return since_id
 
 def main():
-    since_id = 1519649271620022272
+    since_id = 1
 
     while True:
         since_id = check_mentions(since_id)
