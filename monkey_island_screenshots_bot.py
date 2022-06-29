@@ -25,7 +25,7 @@ def upload_media(auth, image_data):
 
 
 def main():
-    frame_id = 4
+    frame_id = 1
     auth= twitter_Oauth()
     t = Twitter(auth=auth)
     frames_folder = "monkey-island-I"
