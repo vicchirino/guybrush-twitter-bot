@@ -1,7 +1,7 @@
 import cv2
 
-framesPath = "/Users/victorchirino/Projects/guybrush-twitter-bot/frames/monkey-island-I/"
-videoPath = "/Users/victorchirino/Projects/guybrush-twitter-bot/videos/monkey-island-I/TheSecretOfMonkeyIslandFull.mp4"
+framesPath = "/frames/monkey-island-I/"
+videoPath = "/videos/monkey-island-I/TheSecretOfMonkeyIslandFull.mp4"
 
 def extractImages():
     vidcap = cv2.VideoCapture(videoPath)
