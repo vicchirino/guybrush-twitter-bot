@@ -1,23 +1,23 @@
-## Twitter Guybrush Threepwood bot.
+# Twitter Guybrush Threepwood bot.
 
 A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybrush Threepwood.
 Also reply for mentions with a random quote.
 
 The bot also post Monkey Island screenshots in order every 3 hours.
 
-### Guybrush quotes
+## Guybrush quotes
 
 - The secret of Monkey Island: http://www.gamefaqs.com/pc/562681-the-secret-of-monkey-island/faqs/23891
 - Lechucks Revenge: https://gamefaqs.gamespot.com/pc/562680-monkey-island-2-lechucks-revenge/faqs/79490
 - The curse of Monnkey Island: https://gamefaqs.gamespot.com/pc/29083-the-curse-of-monkey-island/faqs/60819
 
-### Monkey Island walkthrough
+## Monkey Island walkthrough
 
 - The secret of Monkey Island: https://www.youtube.com/watch?v=QgRIXntFhww
 - Lechucks Revenge: https://www.youtube.com/watch?v=sXRMEz6n5SM
 - The curse of Monkey Island: https://www.youtube.com/watch?v=zfAo3O2qZR0
 
-### Setup
+## Setup
 
 1. Clone the project.
 2. Create an environment doing `pip install virtualenv` and then `virtualenv {ENVIRONMENT_NAME}`.
@@ -36,15 +36,15 @@ The bot also post Monkey Island screenshots in order every 3 hours.
 
 1. Run the script for posting screenshots: `TWITTER_BOT_CONSUMER_KEY={TWITTER_BOT_CONSUMER_KEY TWITTER_BOT_CONSUMER_SECRET={TWITTER_BOT_CONSUMER_SECRET TWITTER_BOT_ACCESS_TOKEN={TWITTER_BOT_ACCESS_TOKEN} TWITTER_BOT_ACCESS_TOKEN_SECRET={TWITTER_BOT_ACCESS_TOKEN_SECRET} nohup python monkey_island_screenshots_bot.py &`
 
-### Production bot:
+## Production bot:
 
 [@guybrush_quotes](https://twitter.com/guybrush_quotes?s=20&t=uu60Z4Ofq8N_CvZ5crAhfw)
 
 <img width="691" alt="image" src="https://user-images.githubusercontent.com/3228237/165741417-1028767c-2774-41f9-ad86-964b16874cf2.png">
 
-### Resources
+## Resources
 
-#### Twitter:
+### Twitter:
 
 - Twitter developper account: https://developer.twitter.com
 - Twitter Authentication: https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code
@@ -54,7 +54,7 @@ The bot also post Monkey Island screenshots in order every 3 hours.
 - Twitter bot examples in Python: https://realpython.com/twitter-bot-python-tweepy/
 - Twitter bot example: https://medium.com/@muhammetbuyuknacar/coding-a-twitter-lyric-mention-bot-with-python-de83b024b9a3
 
-#### Python:
+### Python:
 
 - Python and VSCode: https://code.visualstudio.com/docs/python/python-tutorial
 - Python programmer: https://wiki.python.org/moin/BeginnersGuide/Programmers
