@@ -7,7 +7,6 @@ consumer_key = os.environ.get('TWITTER_BOT_CONSUMER_KEY')
 consumer_secret = os.environ.get('TWITTER_BOT_CONSUMER_SECRET')
 access_token = os.environ.get('TWITTER_BOT_ACCESS_TOKEN')
 access_token_secret = os.environ.get('TWITTER_BOT_ACCESS_TOKEN_SECRET')
-bearer_token = os.environ.get('BARER_TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
@@ -31,7 +30,7 @@ def main():
     frames_folder = "monkey-island-I"
 
     while True:
-        image= f"/Users/victorchirino/Projects/guybrush-twitter-bot/frames/{frames_folder}/frame-{frame_id}.jpg"
+        image= f"/frames/{frames_folder}/frame-{frame_id}.jpg"
         try:
           file = open(image, 'rb')
         except:

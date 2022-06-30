@@ -1,7 +1,9 @@
-## Twitter Guybrush Threepwood quotes bot.
+## Twitter Guybrush Threepwood bot.
 
 A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybrush Threepwood.
 Also reply for mentions with a random quote.
+
+The bot also post Monkey Island screenshots in order every 3 hours.
 
 ### Guybrush quotes
 
@@ -9,14 +11,30 @@ Also reply for mentions with a random quote.
 - Lechucks Revenge: https://gamefaqs.gamespot.com/pc/562680-monkey-island-2-lechucks-revenge/faqs/79490
 - The curse of Monnkey Island: https://gamefaqs.gamespot.com/pc/29083-the-curse-of-monkey-island/faqs/60819
 
-### Run the bot
+### Monkey Island walkthrough
+
+- The secret of Monkey Island: https://www.youtube.com/watch?v=QgRIXntFhww
+- Lechucks Revenge: https://www.youtube.com/watch?v=sXRMEz6n5SM
+- The curse of Monkey Island: https://www.youtube.com/watch?v=zfAo3O2qZR0
+
+### Setup
 
 1. Clone the project.
 2. Create an environment doing `pip install virtualenv` and then `virtualenv {ENVIRONMENT_NAME}`.
 3. Activate the virtual if needed `source /{ENVIRONMENT_NAME}/bin/activate` (Note: The method used to activate the virtual environment may be different, depending on your operating system and shell. You can learn more about this in the [venv documentation](https://docs.python.org/3/library/venv.html).)
 4. Generate the twitter account keys. Visit https://developer.twitter.com.
-5. Run the scrirpt for a single tweet `TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py`
-6. Run the script for replying mentions `BOT_USER_ID={BOT_USER_ID} TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' BARER_TOKEN='{KEY}' nohup python guybrush_threepwood_reply_bot.py`
+
+### Run the quotes Bot
+
+1. Run the scrirpt for a single tweet `TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py`
+
+### Run the reply bot
+
+1. Run the script for replying mentions `BOT_USER_ID={BOT_USER_ID} TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' BARER_TOKEN='{KEY}' nohup python guybrush_threepwood_reply_bot.py`
+
+### Run the Monkey Island screenshots bot
+
+1. Run the script for posting screenshots: `TWITTER_BOT_CONSUMER_KEY={TWITTER_BOT_CONSUMER_KEY TWITTER_BOT_CONSUMER_SECRET={TWITTER_BOT_CONSUMER_SECRET TWITTER_BOT_ACCESS_TOKEN={TWITTER_BOT_ACCESS_TOKEN} TWITTER_BOT_ACCESS_TOKEN_SECRET={TWITTER_BOT_ACCESS_TOKEN_SECRET} nohup python monkey_island_screenshots_bot.py &`
 
 ### Production bot:
 
@@ -26,6 +44,8 @@ Also reply for mentions with a random quote.
 
 ### Resources
 
+#### Twitter:
+
 - Twitter developper account: https://developer.twitter.com
 - Twitter Authentication: https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code
 - Twitter Authentication PKCE: https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-access-token
@@ -33,11 +53,16 @@ Also reply for mentions with a random quote.
 - Twitter bot project example: https://github.com/twitterdev/FactualCat-Twitter-Bot
 - Twitter bot examples in Python: https://realpython.com/twitter-bot-python-tweepy/
 - Twitter bot example: https://medium.com/@muhammetbuyuknacar/coding-a-twitter-lyric-mention-bot-with-python-de83b024b9a3
+
+#### Python:
+
 - Python and VSCode: https://code.visualstudio.com/docs/python/python-tutorial
 - Python programmer: https://wiki.python.org/moin/BeginnersGuide/Programmers
 - os Python: https://docs.python.org/3/library/os.html
 - Python scripts on background: https://janakiev.com/blog/python-background/
 - Schedule Python: https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e
+- Python Twitter library: https://pypi.org/project/twitter/
+- Python csv library: https://pypi.org/project/python-csv/
 - Crontab guru: https://crontab.guru/#____\*__\__
   - Install crontab `crontab my-crontab`
   - Generate crontab with copy `crontab -l > my-crontab`
