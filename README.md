@@ -17,34 +17,36 @@ The bot also post Monkey Island screenshots in order every 3 hours.
 - Lechucks Revenge: https://www.youtube.com/watch?v=sXRMEz6n5SM
 - The curse of Monkey Island: https://www.youtube.com/watch?v=zfAo3O2qZR0
 
-## Setup
+### Setup
 
 1. Clone the project.
 2. Create an environment doing `pip install virtualenv` and then `virtualenv {ENVIRONMENT_NAME}`.
 3. Activate the virtual if needed `source /{ENVIRONMENT_NAME}/bin/activate` (Note: The method used to activate the virtual environment may be different, depending on your operating system and shell. You can learn more about this in the [venv documentation](https://docs.python.org/3/library/venv.html).)
 4. Generate the twitter account keys. Visit https://developer.twitter.com.
 
-### Run the quotes Bot
+#### Run the quotes Bot
 
 1. Run the scrirpt for a single tweet `TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' python guybrush_threepwood_quotes_bot.py`
 
-### Run the reply bot
+#### Run the reply bot
 
 1. Run the script for replying mentions `BOT_USER_ID={BOT_USER_ID} TWITTER_BOT_CONSUMER_KEY='{KEY}' TWITTER_BOT_CONSUMER_SECRET='{KEY}' TWITTER_BOT_ACCESS_TOKEN='{KEY}' TWITTER_BOT_ACCESS_TOKEN_SECRET='{KEY}' BARER_TOKEN='{KEY}' nohup python guybrush_threepwood_reply_bot.py`
 
-### Run the Monkey Island screenshots bot
+#### Run the Monkey Island screenshots bot
 
 1. Run the script for posting screenshots: `TWITTER_BOT_CONSUMER_KEY={TWITTER_BOT_CONSUMER_KEY TWITTER_BOT_CONSUMER_SECRET={TWITTER_BOT_CONSUMER_SECRET TWITTER_BOT_ACCESS_TOKEN={TWITTER_BOT_ACCESS_TOKEN} TWITTER_BOT_ACCESS_TOKEN_SECRET={TWITTER_BOT_ACCESS_TOKEN_SECRET} nohup python monkey_island_screenshots_bot.py &`
 
-## Production bot:
+
+### Production bot:
 
 [@guybrush_quotes](https://twitter.com/guybrush_quotes?s=20&t=uu60Z4Ofq8N_CvZ5crAhfw)
 
 <img width="691" alt="image" src="https://user-images.githubusercontent.com/3228237/165741417-1028767c-2774-41f9-ad86-964b16874cf2.png">
 
-## Resources
 
-### Twitter:
+### Resources
+
+#### Twitter:
 
 - Twitter developper account: https://developer.twitter.com
 - Twitter Authentication: https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code
@@ -54,7 +56,7 @@ The bot also post Monkey Island screenshots in order every 3 hours.
 - Twitter bot examples in Python: https://realpython.com/twitter-bot-python-tweepy/
 - Twitter bot example: https://medium.com/@muhammetbuyuknacar/coding-a-twitter-lyric-mention-bot-with-python-de83b024b9a3
 
-### Python:
+#### Python:
 
 - Python and VSCode: https://code.visualstudio.com/docs/python/python-tutorial
 - Python programmer: https://wiki.python.org/moin/BeginnersGuide/Programmers
