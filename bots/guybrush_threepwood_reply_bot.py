@@ -100,7 +100,7 @@ def check_mentions(since_id):
     return since_id
 
 def main():
-    since_id = 1
+    since_id = 1666839535429517314
 
     while True:
         since_id = check_mentions(since_id)
