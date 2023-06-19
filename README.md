@@ -1,6 +1,6 @@
 # Twitter Guybrush Threepwood bot.
 
-A simple Twitter bot that tweets a quote every hour of the mighty pirate, Guybrush Threepwood.
+A Twitter bot that tweets a quote every hour of the mighty pirate, Guybrush Threepwood.
 Also reply for mentions with a random quote.
 
 The bot also post Monkey Island screenshots in order every 3 hours.
